@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>SLE PROJECT</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body style = "background-color : 7A316F;">
+	<div class = "container">
+	
+		<div class = "register">
+		<h2 style = "text-align : center;font-size: 35px; ">REGISTER</h2>
+
+			<form action = "register.php" method = "post">
+	
+				<div class = "reg_user">
+					<label for = "username">USERNAME : </label><br>
+					<input type = "text" id = "username" name = "username" required>
+					<br>
+
+					<label for = "password">PASSWORD : </label><br>
+					<input type = "password" id = "password" name = "password" required>
+					<br>
+					<button type = "submit" name = "register" class = "register-btn">REGISTER</button>
+				</div>
+			</form>
+		</div>
+		<div class = "login">
+		<h2 style = "text-align : center;font-size: 35px; ">LOGIN</h2>
+			<form action = "login.php" method = "post">
+			
+				<div class = "log_user">
+					<label for = "username">USERNAME : </label>
+					<input type = "text" id = "username" name = "username" required>
+					<br>
+	
+					<label for = "password">PASSWORD : </label>
+					<input type = "password" id = "password" name = "password" required>
+					<br>
+	
+					<button type = "submit" name = "login" class = "login-btn">LOGIN</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
